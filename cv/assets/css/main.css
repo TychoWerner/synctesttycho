@@ -107,10 +107,9 @@
 		height: 100%;
 		background-image: url("https://tychowerner.github.io/tycho-web-dev/cv/images/bg.jpg");
 		background-color: #ffffff;
-		background-repeat: repeat,			no-repeat,			no-repeat;
-		background-size: 100px 100px, cover,				cover;
-		background-position: top left,		center center,		bottom center;
-		background-attachment: fixed,			fixed,				fixed;
+		background-position: center; /* Center the image */
+	  background-repeat: no-repeat; /* Do not repeat the image */
+	  background-size: cover;
 	}
 
 		body:after {
